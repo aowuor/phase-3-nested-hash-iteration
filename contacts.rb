@@ -19,6 +19,10 @@ end
 
 def remove_strawberry(contacts)
   # your code here!
+  contacts.each do |person, data|
+    data.each do |attribute, value|
+    binding.pry
+  end
 end
 
 # print the output to the terminal for inspection
